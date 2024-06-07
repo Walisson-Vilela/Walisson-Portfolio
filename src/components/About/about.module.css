@@ -1,0 +1,11 @@
+.aboutContainer {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+  }
+
+  
+  .profilePicture img {
+    width: 100%; /* Garante que a imagem preencha completamente o contêiner */
+    height: 100%; /* Garante que a imagem preencha completamente o contêiner */
+       border-radius: 5%; /* Torna a imagem redonda */
+  }

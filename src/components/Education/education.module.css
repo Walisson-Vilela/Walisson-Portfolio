@@ -1,0 +1,30 @@
+.subtitle {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.subtitleEducation {
+  font-weight: 100;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none; /* Remove as bolinhas (marcadores) */
+}
+/* education.module.css */
+
+.educationContainer {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Cria duas colunas, a primeira com tamanho automático (baseado no conteúdo) e a segunda ocupando o restante do espaço */
+  gap: 16px; /* Adiciona espaçamento entre as colunas */
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle {
+  font-style: italic; /* Adiciona estilo de itálico ao subtítulo */
+}

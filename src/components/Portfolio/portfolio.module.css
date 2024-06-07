@@ -1,0 +1,15 @@
+/* Estilo do carrossel */
+.portfolioCarousel {
+    overflow-x: auto; /* Adiciona rolagem horizontal */
+    white-space: nowrap; /* Impede que os elementos quebrem linha */
+    display: flex; /* Adiciona display flex para centralizar */
+    justify-content: center; /* Alinha os cards ao centro horizontalmente */
+  }
+  
+  /* Estilo dos cards no carrossel */
+  .portfolioCards {
+    display: inline-flex; /* Mostra os cards em uma linha */
+    flex-wrap: nowrap; /* Impede que os cards quebrem linha */
+    gap: 16px; /* Adiciona espaçamento entre os cards */
+  }
+  

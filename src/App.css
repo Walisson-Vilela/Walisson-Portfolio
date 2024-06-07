@@ -1,0 +1,19 @@
+
+.app-container {
+  display: grid;
+  grid-template-columns: 1fr; /* Uma coluna com largura flexível */
+  gap: 1rem; /* Espaço entre as linhas e colunas */
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Estilos para elementos filhos */
+
+
+
+body {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
