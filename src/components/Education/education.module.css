@@ -11,6 +11,7 @@
   font-size: 1rem;
   margin-bottom: 10px;
 }
+
 .section {
   margin-bottom: 15px;
 }
@@ -27,7 +28,8 @@
   gap: 50px 100px;
   grid-template-columns: 2fr 1.5fr;
   background-color: #fff;
-  padding-top: 15px;
+  padding-top: 30px;
+  margin-bottom: 30px;
 }
 
 .title h1 {
