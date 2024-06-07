@@ -13,13 +13,13 @@ function Home() {
       <Navbar />
       <main className={styles.display}>
         <About />
-        <hr></hr>
+      
         <Education />
-        <hr></hr>
+      
         <Experience />
-        <hr></hr>
+     
         <Portfolio />
-        <hr></hr>
+
         <Contact />
       </main>
     </div>
