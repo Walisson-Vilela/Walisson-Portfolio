@@ -1,4 +1,4 @@
-import Profile from "../../assets/images/walisson.jpg";
+import Profile from "../../assets/images/walisson-vilela.png";
 import styles from "./about.module.css";
 
 function About() {

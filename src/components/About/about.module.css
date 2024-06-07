@@ -1,11 +1,14 @@
 .aboutContainer {
-    display: flex;
-    align-items: center; /* Centraliza verticalmente */
-  }
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  background-color: #fff;
 
-  
-  .profilePicture img {
-    width: 100%; /* Garante que a imagem preencha completamente o contêiner */
-    height: 100%; /* Garante que a imagem preencha completamente o contêiner */
-       border-radius: 5%; /* Torna a imagem redonda */
-  }
+}
+
+.profilePicture img {
+  width: 100%; /* Garante que a imagem preencha completamente o contêiner */
+  height: 100%; /* Garante que a imagem preencha completamente o contêiner */
+  border-radius: 5%; /* Torna a imagem redonda */
+  background-color: rgb(73, 255, 194);
+  padding: 15px 25px 0px 15px;
+}
