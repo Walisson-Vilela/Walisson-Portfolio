@@ -1,0 +1,28 @@
+.primary {
+  background-color: rgb(73, 255, 194);
+  border: none;
+  width: auto;
+  padding: 12px 24px;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+.primary:hover {
+  background-color: rgb(70, 236, 181);
+  cursor: pointer;
+}
+
+.secondary {
+  background-color: #fff;
+  border: 2px rgb(73, 255, 194) solid;
+  width: auto;
+  padding: 12px 24px;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  font-weight: 600;
+  color: black;
+}
+
+.secondary:hover {
+  border: 2px rgb(70, 236, 181) solid;
+}

@@ -12,7 +12,7 @@ function Home() {
       <Navbar />
       <main className={styles.display}>
         <About />
-        <hr></hr>
+       
         <Education />
         <hr></hr>
         <Portfolio />

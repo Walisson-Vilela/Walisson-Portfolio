@@ -1,14 +1,42 @@
 .aboutContainer {
-  display: flex;
-  align-items: center; /* Centraliza verticalmente */
+  display: grid;
+  gap: 50px 100px;
+  grid-template-columns: 1fr 4fr;
   background-color: #fff;
-
+  padding-top: 30px;
 }
 
-.profilePicture img {
-  width: 100%; /* Garante que a imagem preencha completamente o contêiner */
-  height: 100%; /* Garante que a imagem preencha completamente o contêiner */
-  border-radius: 5%; /* Torna a imagem redonda */
+.profileAbout {
+  width: 100%; 
+}
+
+.profileAbout img {
+  width: 100%;
+  height: 100%;
   background-color: rgb(73, 255, 194);
-  padding: 15px 25px 0px 15px;
+  padding: 15px 55px 0px 15px;
+  min-width: 300px;
+  min-height: 450px;
+}
+
+.sectionContent {
+  padding: 10px;
+}
+
+h1 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+p {
+  margin-bottom: 20px; 
+  line-height: 1.5em
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutContainer {
+    grid-template-columns: 1fr;
+  }
 }

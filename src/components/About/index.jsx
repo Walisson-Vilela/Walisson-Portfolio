@@ -1,17 +1,19 @@
+import { ButtonPrimary } from "../../assets/Buttons";
 import Profile from "../../assets/images/walisson-vilela.png";
 import styles from "./about.module.css";
 
 function About() {
   return (
     <div className={styles.aboutContainer}>
-      <figure className={styles.profilePicture}>
-        <img src={Profile} alt="Walisson Vilela" />
-      </figure>
-      <section>
+      <div className={styles.profileAbout}>
+        <img style={{ zIndex: 3 }} src={Profile} alt="Walisson Vilela" />
+      </div>
+      <div className={styles.profileAbout}>
         <h1>Bem-vindo ao meu Portfólio!</h1>
         <p>
-          Olá! Meu nome é Walisson Vilela e sou um Desenvolvedor Front-end e
-          UI/UX Designer. Aqui está um pouco sobre mim...
+          Olá! Meu nome é <strong>Walisson Vilela</strong> e sou um
+          Desenvolvedor <strong>Front-end</strong> e
+          <strong>UI/UX Designer</strong>. Aqui está um pouco sobre mim...
         </p>
         <p>
           Com formação em Análise e Desenvolvimento de Sistemas, trago uma
@@ -27,9 +29,9 @@ function About() {
             até testes A/B e design thinking.
           </p>
         </p>
-        <button>Saiba mais</button>
+        <ButtonPrimary buttonText={"Saiba mais"} />
         {/* Direciona para curriculum  */}
-      </section>
+      </div>
     </div>
   );
 }
