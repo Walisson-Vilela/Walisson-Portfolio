@@ -1,16 +1,19 @@
-import { ButtonPrimary } from "../../assets/Buttons";
-import Profile from "../../assets/images/walisson-vilela.png";
-import styles from "./about.module.css";
+import styles from "./experience.module.css";
 
-function About() {
+function Experience() {
   return (
-    <div className={styles.aboutContainer}>
-      <div className={styles.profileAbout}>
-        <img style={{ zIndex: 3 }} src={Profile} alt="Walisson Vilela" />
-      </div>
-      <div className={styles.section}>
-        <h1>Bem-vindo ao meu Portfólio!</h1>
-        <p>
+    <>
+      <div className={styles.educationContainer}>
+        <div className={styles.title}>
+          <h1>Experiência Profissional</h1>
+          <div className={styles.subtitleEducation}>
+            UI/UX Designer, Desenvolvimento front-end
+          </div>
+        </div>
+        
+        
+          <div className={styles.section}>
+          <p>
           Olá! Meu nome é <strong>Walisson Vilela</strong> e sou um
           Desenvolvedor <strong>Front-end</strong> e 
           <strong> UI/UX Designer</strong>. Aqui está um pouco sobre mim...
@@ -20,6 +23,7 @@ function About() {
           sólida bagagem de experiência em infraestrutura de TI e
           desenvolvimento front-end de sistemas web, com foco especial em
           ReactJS.
+          </p>
           <p>
             Ao longo da minha jornada profissional, adquiri habilidades em
             análise e manipulação de bancos de dados PostgreSQL, assim como na
@@ -28,12 +32,13 @@ function About() {
             conhecimento em UI e UX design abrange desde relatórios de pesquisa
             até testes A/B e design thinking.
           </p>
-        </p>
-        <ButtonPrimary buttonText={"Saiba mais"} />
-        {/* Direciona para curriculum  */}
+       
+          </div>
+        
+        
       </div>
-    </div>
+    </>
   );
 }
 
-export default About;
+export default Experience;

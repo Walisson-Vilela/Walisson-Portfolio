@@ -1,9 +1,10 @@
 .aboutContainer {
   display: grid;
-  gap: 50px 100px;
-  grid-template-columns: 1fr 4fr;
+  gap: 15%;
+  grid-template-columns: 1fr 3fr;
   background-color: #fff;
-  padding-top: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .profileAbout {
@@ -12,15 +13,18 @@
 
 .profileAbout img {
   width: 100%;
-  height: 100%;
+  height: auto;
   background-color: rgb(73, 255, 194);
   padding: 15px 55px 0px 15px;
   min-width: 300px;
   min-height: 450px;
 }
 
-.sectionContent {
-  padding: 10px;
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  margin-top: -50px;
 }
 
 h1 {

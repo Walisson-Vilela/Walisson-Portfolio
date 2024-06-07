@@ -22,12 +22,12 @@
 }
 
 .educationContainer  {
-  margin-top: 15px;
+  margin-top: 30px;
   display: grid;
-  gap: 50px 100px;
-  grid-template-columns: 2fr 1.5fr;
+  gap: 10%;
+  grid-template-columns: 1fr 2fr;
   background-color: #fff;
-  padding-top: 15px;
+  padding-top: 30px;
 }
 
 .title h1 {

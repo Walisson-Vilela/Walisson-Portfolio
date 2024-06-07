@@ -8,7 +8,7 @@ nav {
   }
   
   .logo a {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #fff;
     text-decoration: none;
   }
@@ -28,5 +28,6 @@ nav {
   }
   
   .navLinks li a:hover {
-    color: #ccc;
+    color: rgb(73, 255, 194);
   }
+
