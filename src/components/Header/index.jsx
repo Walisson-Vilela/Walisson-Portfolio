@@ -1,14 +1,19 @@
-import { ButtonPrimary, ButtonSecondary } from "../../assets/Buttons";
-import styles from "./about.module.css";
+
+import Profile from "../../assets/images/walisson-vilela.png";
+import styles from "./header.module.css";
 
 function Header() {
   return (
-    <div className={styles.aboutContainer}>
+    <div className={styles.headerContainer}>
       <div className={styles.section}>
-        <h2>Sobre mim</h2>
-        <div className={styles.hr}></div>
-
-        <p>
+        <h5>Olá!</h5>
+        <h1>
+          Eu sou <span style={{ color: "rgb(73, 255, 194)" }}>Walisson</span>
+        </h1>
+       <h3>
+          Freelancer, UI/UX Designer & Desenvolvedor Front-end
+        </h3>
+        {/* <p>
           Olá! Meu nome é <strong>Walisson Vilela</strong> e sou um
           Desenvolvedor <strong>Front-end</strong> e
           <strong> UI/UX Designer</strong>. Aqui está um pouco sobre mim...
@@ -26,12 +31,12 @@ function Header() {
             conhecimento em UI e UX design abrange desde relatórios de pesquisa
             até testes A/B e design thinking.
           </p>
-        </p>
-        <div className={styles.buttonsArea} >
-          <ButtonSecondary buttonText={"Saiba mais"} />
-          <ButtonPrimary buttonText={"Download CV"} />
-        </div>
+        </p> */}
+
         {/* Direciona para curriculum  */}
+      </div>
+      <div className={styles.picture}>
+        <img src={Profile} alt="Walisson Vilela" />
       </div>
     </div>
   );
