@@ -19,7 +19,9 @@ nav {
   }
   
   .navLinks li {
-    margin-right: 20px;
+    margin-right: 32px;
+    text-transform: uppercase;
+    font-weight: 300;
   }
   
   .navLinks li a {

@@ -1,4 +1,5 @@
 .display{
-    padding: 0 20%;  
+flex-direction: column;
+width: 100%;
 }
 

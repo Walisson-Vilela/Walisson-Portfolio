@@ -13,7 +13,7 @@ function Navbar() {
         <li><Link to="/education">Formação</Link></li>
         <li><Link to="/portfolio">Portfólio</Link></li>
         <li><Link to="/contact">Contato</Link></li>
-        <li><Link to="/curriculum">Curriculo</Link></li>
+        <li><Link to="/curriculum">Currículo</Link></li>
       </ul>
     </nav>
   );

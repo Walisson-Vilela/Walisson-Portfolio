@@ -10,7 +10,7 @@ export function ButtonPrimary({buttonText}) {
 export function ButtonSecondary({buttonText}) {
     return (
         <button className={styles.secondary}>
-            {buttonText}
+              {buttonText.toUpperCase()}
         </button>
     );
 }

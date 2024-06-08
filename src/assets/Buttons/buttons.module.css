@@ -5,7 +5,7 @@
   padding: 12px 24px;
   letter-spacing: 1px;
   border-radius: 3px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .primary:hover {
   background-color: rgb(70, 236, 181);
@@ -13,16 +13,17 @@
 }
 
 .secondary {
-  background-color: #fff;
+  background-color: inherit;
   border: 2px rgb(73, 255, 194) solid;
+  color: rgb(73, 255, 194);
   width: auto;
   padding: 12px 24px;
   letter-spacing: 1px;
   border-radius: 3px;
-  font-weight: 600;
-  color: black;
+  font-weight: 500;
 }
 
 .secondary:hover {
-  border: 2px rgb(70, 236, 181) solid;
+  border: 2px rgb(36, 219, 158) solid;
+  cursor: pointer;
 }
