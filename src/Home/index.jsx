@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import About from '../components/About';
 import Contact from "../components/Contact";
-import Experience from "../components/Experience";
+import Services from "../components/Services";
 import Navbar from "../components/Navbar";
 import Portfolio from "../components/Portfolio";
 
@@ -17,7 +17,7 @@ function Home() {
         <About />
         {/* <Education /> */}
 
-        <Experience />
+        <Services />
 
         <Portfolio />
 

@@ -9,11 +9,10 @@ function Navbar() {
         <Link to="/">WalissonVilela<span style={{ color: 'rgb(73, 255, 194)', fontWeight: 900, fontSize: '3rem'}}>.</span></Link>
       </div>
       <ul className={styles.navLinks}>
-        <li><Link to="/about">Sobre Mim</Link></li>
-        <li><Link to="/education">Formação</Link></li>
+        <li><Link to="/about">Sobre</Link></li>
+        <li><Link to="/education">Serviços</Link></li>
         <li><Link to="/portfolio">Portfólio</Link></li>
         <li><Link to="/contact">Contato</Link></li>
-        <li><Link to="/curriculum">Currículo</Link></li>
       </ul>
     </nav>
   );
