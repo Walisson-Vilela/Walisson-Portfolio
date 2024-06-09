@@ -1,7 +1,11 @@
 import ServicesCard from "../../assets/ServicesCards";
 
 import UiPicture from '../../assets/images/ui.png';
+import UxPicture from '../../assets/images/ux.png';
+import webPicture from '../../assets/images/web-development.png';
 import UiBackground from '../../assets/images/uiBackground.png';
+import UxBackground from '../../assets/images/uxBackground.jpg';
+import DevBackground from '../../assets/images/devBackground.jpg';
 
 import styles from "./services.module.css";
 
@@ -10,23 +14,23 @@ function Services() {
     {
       title: "UI Design",
       content: "Criação de interfaces digitais intuitivas e esteticamente agradáveis para melhorar a experiência do usuário.",
-      skills:"Figma, AdobeXD",
+      skills:"Testes A/B, Figma, AdobeXD",
       imageUrl: UiPicture,
       backgroundImageUrl: UiBackground,
     },
     {
-      title: "Card 2",
-      content: "Conteúdo do Card 2",
-      skills:"Figma, AdobeXD",
-      imageUrl: "url_da_sua_imagem_2.jpg",
-      backgroundImageUrl: "url_da_sua_imagem_de_fundo_2.jpg",
+      title: "UX Design",
+      content: "Soluções eficazes e intuitivas para produtos digitais, focando na usabilidade, acessibilidade e satisfação do usuário.",
+      skills:"UX Research, Design Thinking, Double Diamond",
+      imageUrl: UxPicture,
+      backgroundImageUrl: UxBackground,
     },
     {
-      title: "Card 3",
-      content: "Conteúdo do Card 3",
-      skills:"Figma, AdobeXD",
-      imageUrl: "url_da_sua_imagem_3.jpg",
-      backgroundImageUrl: "url_da_sua_imagem_de_fundo_3.jpg",
+      title: "Desenvolvimento Front-End",
+      content: "Desenvolvimento de sites e sistemas web",
+      skills:"HTML, CSS, Javascript, ReactJS",
+      imageUrl: webPicture,
+      backgroundImageUrl:DevBackground,
     },
   ];
 

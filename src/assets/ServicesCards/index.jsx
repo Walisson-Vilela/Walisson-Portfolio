@@ -14,17 +14,16 @@ const ServicesCard = ({
         backgroundImage: `url(${backgroundImageUrl})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        backgroundColor: 'rgba(10, 10, 0, 0.9)',
-        zIndex: 2
       }}
     >
-        
-      <div className={styles.img}>
-        <img src={imageUrl} alt={title} />
+      <div className={styles.overlay}>
+        <div className={styles.img}>
+          <img src={imageUrl} alt={title} />
+        </div>
+        <span className={styles.title}>{title}</span>
+        <span className={styles.content}>{content}</span>
+        <span className={styles.subtitle}>{skills}</span>
       </div>
-      <span className={styles.title}>{title}</span>
-      <span className={styles.content}>{content}</span>
-      <span className={styles.subtitle}>{skills}</span>
     </div>
   );
 };
