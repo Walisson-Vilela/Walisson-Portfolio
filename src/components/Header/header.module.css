@@ -23,7 +23,7 @@
 }
 
 .picture img {
-  width: 350px; /* Reduzi um pouco o tamanho para evitar que fique muito grande em telas menores */
+  width: 360px; /* Reduzi um pouco o tamanho para evitar que fique muito grande em telas menores */
   max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
   margin-top: 10px; /* Ajusta a margem superior conforme necessário */
   align-self: flex-end; /* Alinha a imagem no final da coluna (parte inferior) */

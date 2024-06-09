@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import About from '../components/About';
+import About from "../components/About";
 import Contact from "../components/Contact";
 import Services from "../components/Services";
 import Navbar from "../components/Navbar";
@@ -13,14 +13,9 @@ function Home() {
       <Navbar />
       <main className={styles.display}>
         <Header />
-
         <About />
-        {/* <Education /> */}
-
         <Services />
-
         <Portfolio />
-
         <Contact />
       </main>
     </div>

@@ -2,14 +2,12 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  max-height: 800px;
   background-color: #2c2c2c;
   color: #fff;
 }
 
 .section {
-  width: 50%;
-  max-height: 800px;
+  width: 100%;
   padding: 0% 15% 5% 15%;
 }
 
@@ -33,16 +31,21 @@ h2 {
     margin-top: 3rem;
 }
 
-p {
-  margin-bottom: 20px;
-  line-height: 1.5em;
+.cardsArea {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.buttonsArea {
+.cards {
     display: flex;
     justify-content: space-between;
-    width: 320px;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
     margin-top: 2rem;
+    margin: 0 5%;
 }
 
 @media only screen and (max-width: 768px) {
