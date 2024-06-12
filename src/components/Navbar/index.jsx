@@ -5,9 +5,9 @@ import styles from './navbar.module.css';
 function Navbar() {
   return (
     <nav>
-      <div className={styles.logo}>
+      {/* <div className={styles.logo}>
         <Link to="/">WalissonVilela<span style={{ color: 'rgb(73, 255, 194)', fontWeight: 900, fontSize: '3rem'}}>.</span></Link>
-      </div>
+      </div> */}
       <ul className={styles.navLinks}>
         <li><Link to="/about">Sobre</Link></li>
         <li><Link to="/education">Serviços</Link></li>
