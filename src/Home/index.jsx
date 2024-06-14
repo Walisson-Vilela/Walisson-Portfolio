@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import About from "../components/About";
-import Services from "../components/Services";
+import Work from "../components/Work";
 import Portfolio from "../components/Portfolio";
 import Contact from "../components/Contact";
 import styles from "./home.module.css";
@@ -75,7 +75,7 @@ function Home() {
       <main className={styles.display} id="particles-container">
         <Header />
         <About />
-        <Services />
+        <Work />
         <Portfolio />
         <Contact />
       </main>

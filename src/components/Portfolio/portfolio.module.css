@@ -1,15 +1,54 @@
-/* Estilo do carrossel */
-.portfolioCarousel {
-    overflow-x: auto; /* Adiciona rolagem horizontal */
-    white-space: nowrap; /* Impede que os elementos quebrem linha */
-    display: flex; /* Adiciona display flex para centralizar */
-    justify-content: center; /* Alinha os cards ao centro horizontalmente */
-  }
-  
-  /* Estilo dos cards no carrossel */
-  .portfolioCards {
-    display: inline-flex; /* Mostra os cards em uma linha */
-    flex-wrap: nowrap; /* Impede que os cards quebrem linha */
-    gap: 16px; /* Adiciona espaçamento entre os cards */
-  }
-  
+.portfolioContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  background-color: #313131;
+  color: #fff;
+}
+
+.mainSection {
+  width: 100%;
+  padding: 0% 15% 5% 15%;
+}
+
+
+.hr {  
+  background-color: rgb(73, 255, 194);
+  width: 130px;
+  height: 10px;
+  margin-top: -1.5rem;
+}
+
+
+.section {
+  width: 100%;
+  display: flex; /* Adicionando display flex para usar align-self */
+  flex-direction: column;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.textSection {
+  margin-top: 1.5rem;
+  margin-bottom: 30px;
+}
+
+
+.cardsArea {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  margin-top: 2rem;
+  margin: 0 5%;
+}

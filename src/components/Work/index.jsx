@@ -7,9 +7,9 @@ import UiBackground from '../../assets/images/uiBackground.png';
 import UxBackground from '../../assets/images/uxBackground.jpg';
 import DevBackground from '../../assets/images/devBackground.jpg';
 
-import styles from "./services.module.css";
+import styles from "./work.module.css";
 
-function Services() {
+function Work() {
   const cardsData = [
     {
       title: "UI Design",
@@ -65,4 +65,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default Work;
