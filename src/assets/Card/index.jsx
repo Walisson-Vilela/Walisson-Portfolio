@@ -3,26 +3,38 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import { CardActionArea } from "@mui/material";
+import { Button, CardActionArea, CardActions } from "@mui/material";
 
-export default function ActionAreaCard() {
+export default function ActionAreaCard({
+  title,
+  content,
+  skills,
+  imageUrl,
+  backgroundImageUrl,
+}) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345, bgcolor: "#1c1c1c", color: "#9c9c9c" }}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height="140"
-          image="https://unsplash.com/photos/Klq6refBGCg/download?force=true&w=640" // URL direto para a imagem
+          height="240"
+          image={backgroundImageUrl} // URL direto para a imagem
           alt="Descrição da imagem"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Lizard
+            {title}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+          <Typography
+            variant="body2"
+            color="text.secondary"
+            sx={{ color: "#9c9c9c" }}
+          >
+            {content}
           </Typography>
+          <CardActions   sx={{ marginLeft: -2 }}>
+            <Button size="small" sx={{ color: '#FF6E4A'}}>Ver mais</Button>
+          </CardActions>
         </CardContent>
       </CardActionArea>
     </Card>

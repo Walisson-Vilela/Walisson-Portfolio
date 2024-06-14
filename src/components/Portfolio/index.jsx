@@ -9,6 +9,7 @@ import webPicture from "../../assets/images/web-development.png";
 import UiBackground from "../../assets/images/uiBackground.png";
 import UxBackground from "../../assets/images/uxBackground.jpg";
 import DevBackground from "../../assets/images/devBackground.jpg";
+import ActionAreaCard from "../../assets/Card";
 
 const cardsData = [
   {
@@ -44,16 +45,15 @@ function Portfolio() {
           <div className={styles.hr}></div>
           <div className={styles.textSection}>
             <p>
-              Nessa sessão, está alguns trabalhos e projetos executados.
-              <strong>Web Design</strong> e{" "}
-              <strong>Desenvolvimento Front-end</strong>.
+              Nessa sessão, está alguns trabalhos e projetos elaborados.
+             
             </p>
           </div>
         </div>
         <div className={styles.cardsArea}>
           <div className={styles.cards}>
             {cardsData.map((card, index) => (
-              <ServicesCard
+              <ActionAreaCard
                 key={index}
                 title={card.title}
                 content={card.content}
@@ -67,7 +67,7 @@ function Portfolio() {
         <div className={styles.cardsArea} style={{marginTop: '5%'}}>
           <div className={styles.cards}>
             {cardsData.map((card, index) => (
-              <ServicesCard
+              <ActionAreaCard
                 key={index}
                 title={card.title}
                 content={card.content}
