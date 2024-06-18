@@ -13,11 +13,11 @@ export default function ActionAreaCard({
   backgroundImageUrl,
 }) {
   return (
-    <Card sx={{ maxWidth: 345, bgcolor: "#1c1c1c", color: "#9c9c9c" }}>
+    <Card sx={{width: '30%', maxWidth: 345, bgcolor: "#1c1c1c", color: "#9c9c9c" }}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height="240"
+          height="auto"
           image={backgroundImageUrl} // URL direto para a imagem
           alt="Descrição da imagem"
         />
