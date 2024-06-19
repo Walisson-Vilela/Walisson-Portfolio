@@ -1,18 +1,40 @@
-import { Link } from 'react-router-dom'; // Importe o Link do react-router-dom
+import React from "react";
+import { Link } from "react-router-dom";
+import styles from "./navbar.module.css";
 
-import styles from './navbar.module.css';
+function Navbar({ aboutRef, servicesRef, portfolioRef, contactRef }) {
+  const scrollToRef = (ref) => {
+    if (ref.current) {
+      window.scrollTo({
+        top: ref.current.offsetTop,
+        behavior: "smooth",
+      });
+    }
+  };
 
-function Navbar() {
   return (
-    <nav>
-      {/* <div className={styles.logo}>
-        <Link to="/">WalissonVilela<span style={{ color: 'rgb(73, 255, 194)', fontWeight: 900, fontSize: '3rem'}}>.</span></Link>
-      </div> */}
+    <nav className={styles.navbar}>
       <ul className={styles.navLinks}>
-        <li><Link to="/about">Sobre</Link></li>
-        <li><Link to="/education">Serviços</Link></li>
-        <li><Link to="/portfolio">Portfólio</Link></li>
-        <li><Link to="/contact">Contato</Link></li>
+        <li>
+          <Link to="/about" onClick={() => scrollToRef(aboutRef)}>
+            Sobre
+          </Link>
+        </li>
+        <li>
+          <Link to="/services" onClick={() => scrollToRef(servicesRef)}>
+            Serviços
+          </Link>
+        </li>
+        <li>
+          <Link to="/portfolio" onClick={() => scrollToRef(portfolioRef)}>
+            Portfólio
+          </Link>
+        </li>
+        <li>
+          <Link to="/contact" onClick={() => scrollToRef(contactRef)}>
+            Contato
+          </Link>
+        </li>
       </ul>
     </nav>
   );

@@ -21,26 +21,9 @@
   flex-direction: column;
 }
 
-.contactArea {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 1.5rem;
-  margin-bottom: 30px;
-  gap: 20px; /* Espaçamento entre os inputs */
-}
-
-.buttonArea {
-  display: flex;
-  padding-top: 16px;
-  width: 100%;
-  justify-content: flex-end;
-}
 .iconsArea {
   display: flex;
-  padding-top: 16px;
+  padding-top: 32px;
   width: 100%;
   justify-content: center;
   margin: 0 auto

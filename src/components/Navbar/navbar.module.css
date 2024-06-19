@@ -1,36 +1,38 @@
 nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-  }
-  
-  .logo a {
-    font-size: 2rem;
-    margin-left: 2rem;
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .navLinks {
-    list-style: none;
-    display: flex;
-  }
-  
-  .navLinks li {
-    margin-right: 32px;
-    text-transform: uppercase;
-    font-weight: 300;
-  }
-  
-  .navLinks li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .navLinks li a:hover {
-    color: #FF6E4A;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  width: 100%; /* ocupar a largura total */
+  position: fixed; /* tornar a navbar fixa */
+  top: 0; /* fixar no topo */
+  z-index: 1000; /* ajustar a ordem de empilhamento se necessário */
+}
+.logo a {
+  font-size: 2rem;
+  margin-left: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
 
+.navLinks {
+  list-style: none;
+  display: flex;
+}
+
+.navLinks li {
+  margin-right: 32px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.navLinks li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navLinks li a:hover {
+  color: #ff6e4a;
+}

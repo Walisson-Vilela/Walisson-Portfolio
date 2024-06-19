@@ -32,16 +32,16 @@ function Contact() {
         </div> */}
         <div className={styles.iconsArea}>
           <GithubOutlined
-            style={{ color: "rgba(255, 255, 255, 0.5)", fontSize: "38px", margin: '0 10px', cursor: 'pointer' }}
+            style={{ color: "rgba(255, 255, 255, 0.5)", fontSize: "38px", margin: '0 24px', cursor: 'pointer' }}
           />
           <LinkedinOutlined
-            style={{ color: "rgba(255, 255, 255, 0.5)", fontSize: "38px", margin: '0 10px', cursor: 'pointer' }}
+            style={{ color: "rgba(255, 255, 255, 0.5)", fontSize: "38px", margin: '0 24px', cursor: 'pointer' }}
           />
           <MailOutlined
-            style={{ color: "rgba(255, 255, 255, 0.5)", fontSize: "38px", margin: '0 10px', cursor: 'pointer' }}
+            style={{ color: "rgba(255, 255, 255, 0.5)", fontSize: "38px", margin: '0 24px', cursor: 'pointer' }}
           />
           <WhatsAppOutlined
-            style={{ color: "rgba(255, 255, 255, 0.5)", fontSize: "38px", margin: '0 10px', cursor: 'pointer' }}
+            style={{ color: "rgba(255, 255, 255, 0.5)", fontSize: "38px", margin: '0 24px', cursor: 'pointer' }}
           />
         </div>
       </div>

@@ -1,4 +1,3 @@
-// import Profile from "../../assets/images/walisson-vilela.png";
 import styles from "./header.module.css";
 
 function Header() {
