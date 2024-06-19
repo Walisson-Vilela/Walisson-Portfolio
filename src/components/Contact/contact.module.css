@@ -31,3 +31,17 @@
   margin-bottom: 30px;
   gap: 20px; /* Espaçamento entre os inputs */
 }
+
+.buttonArea {
+  display: flex;
+  padding-top: 16px;
+  width: 100%;
+  justify-content: flex-end;
+}
+.iconsArea {
+  display: flex;
+  padding-top: 16px;
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto
+}

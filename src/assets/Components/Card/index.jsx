@@ -17,7 +17,8 @@ export default function ActionAreaCard({
       <CardActionArea>
         <CardMedia
           component="img"
-          height="auto"
+          height="200px"
+         
           image={backgroundImageUrl} // URL direto para a imagem
           alt="Descrição da imagem"
         />
