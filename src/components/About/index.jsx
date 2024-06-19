@@ -1,4 +1,4 @@
-import { ButtonPrimary, ButtonSecondary } from "../../assets/Buttons";
+import { ButtonPrimary, ButtonSecondary } from "../../assets/Components/Buttons";
 import PerfilImage from "../../assets/images/walisson-perfil.png";
 
 import styles from "./about.module.css";

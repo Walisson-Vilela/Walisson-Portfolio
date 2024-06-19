@@ -1,4 +1,4 @@
-import ServicesCard from "../../assets/ServicesCards";
+import ServicesCard from "../../assets/Components/ServicesCards";
 
 import UiPicture from '../../assets/images/ui.png';
 import UxPicture from '../../assets/images/ux.png';

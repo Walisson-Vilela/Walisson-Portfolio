@@ -19,3 +19,12 @@ export function InputEmail({ label, value }) {
     </div>
   );
 }
+
+export function TextArea({ label, value }) {
+  return (
+    <div  className={styles.display} >
+      <label className={styles.label} >{label}</label>
+      <textarea type='email' className={styles.textArea} value={value}/>
+    </div>
+  );
+}

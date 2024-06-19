@@ -15,14 +15,19 @@
 }
 
 .section {
+  display: flex;
   width: 100%;
   padding: 0% 15% 5% 15%;
+  flex-direction: column;
 }
 
 .contactArea {
-  margin-top: 1.5rem;
-  margin-bottom: 30px;
   display: flex;
   flex-direction: row;
   width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  margin-bottom: 30px;
+  gap: 20px; /* Espaçamento entre os inputs */
 }
