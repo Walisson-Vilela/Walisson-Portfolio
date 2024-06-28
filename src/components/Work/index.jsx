@@ -13,6 +13,7 @@ function Work() {
   const cardsData = [
     {
       title: "UI Design",
+      id: 'ux',
       content: "Criação de interfaces digitais intuitivas e esteticamente agradáveis para melhorar a experiência do usuário.",
       skills:"Testes A/B, Figma, AdobeXD",
       imageUrl: UiPicture,
@@ -20,6 +21,7 @@ function Work() {
     },
     {
       title: "UX Design",
+      id: 'frontEnd',
       content: "Soluções eficazes e intuitivas para produtos digitais, focando na usabilidade, acessibilidade e satisfação do usuário.",
       skills:"UX Research, Design Thinking, Double Diamond",
       imageUrl: UxPicture,
@@ -27,6 +29,7 @@ function Work() {
     },
     {
       title: "Desenvolvimento Front-End",
+      id: 'webDesign',
       content: "Desenvolvimento de sites e sistemas web",
       skills:"HTML, CSS, Javascript, ReactJS",
       imageUrl: webPicture,
@@ -51,6 +54,7 @@ function Work() {
             {cardsData.map((card, index) => (
               <ServicesCard
                 key={index}
+                id={card.id}
                 title={card.title}
                 content={card.content}
                 skills={card.skills}

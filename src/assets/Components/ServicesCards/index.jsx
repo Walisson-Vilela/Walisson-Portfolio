@@ -1,6 +1,7 @@
 import styles from "./servicesCards.module.css";
 
 const ServicesCard = ({
+  id,
   title,
   content,
   skills,
@@ -9,6 +10,7 @@ const ServicesCard = ({
 }) => {
   return (
     <div
+      id={id}
       className={styles.card}
       style={{
         backgroundImage: `url(${backgroundImageUrl})`,

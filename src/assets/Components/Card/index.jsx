@@ -7,13 +7,14 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
 
 export default function ActionAreaCard({
   title,
+  idRef,
   content,
   skills,
   imageUrl,
   backgroundImageUrl,
 }) {
   return (
-    <Card sx={{width: '30%', maxWidth: 345, bgcolor: "#1c1c1c", color: "#9c9c9c" }}>
+    <Card id={idRef} sx={{width: '30%', maxWidth: 345, bgcolor: "#1c1c1c", color: "#9c9c9c" }}>
       <CardActionArea>
         <CardMedia
           component="img"
