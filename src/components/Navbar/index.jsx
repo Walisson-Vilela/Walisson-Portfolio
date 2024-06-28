@@ -1,13 +1,15 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import styles from "./navbar.module.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import styles from './navbar.module.css';
 
 function Navbar({ aboutRef, servicesRef, portfolioRef, contactRef }) {
-  const scrollToRef = (ref) => {
-    if (ref.current) {
+
+  const handleScroll = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
       window.scrollTo({
-        top: ref.current.offsetTop,
-        behavior: "smooth",
+        top: element.offsetTop - 50,
+        behavior: 'smooth',
       });
     }
   };
@@ -16,22 +18,22 @@ function Navbar({ aboutRef, servicesRef, portfolioRef, contactRef }) {
     <nav className={styles.navbar}>
       <ul className={styles.navLinks}>
         <li>
-          <Link to="/about" onClick={() => scrollToRef(aboutRef)}>
+          <a onClick={() => handleScroll('about')}>
             Sobre
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="/services" onClick={() => scrollToRef(servicesRef)}>
+          <a  onClick={() => handleScroll('services')}>
             Serviços
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="/portfolio" onClick={() => scrollToRef(portfolioRef)}>
+          <Link onClick={() => handleScroll('portfolio')}>
             Portfólio
           </Link>
         </li>
         <li>
-          <Link to="/contact" onClick={() => scrollToRef(contactRef)}>
+          <Link onClick={() => handleScroll('contact')}>
             Contato
           </Link>
         </li>
