@@ -7,7 +7,7 @@ import UiBackground from '../../assets/images/uiBackground.png';
 import UxBackground from '../../assets/images/uxBackground.jpg';
 import DevBackground from '../../assets/images/devBackground.jpg';
 
-import styles from "./work.module.css";
+import styles from "./work.module.scss";
 
 function Work() {
   const cardsData = [

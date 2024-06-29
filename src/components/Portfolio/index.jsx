@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import styles from "./portfolio.module.css";
 import UiPicture from "../../assets/images/ui.png";
 import UxPicture from "../../assets/images/ux.png";
 import webPicture from "../../assets/images/web-development.png";
@@ -7,6 +6,8 @@ import UiBackground from "../../assets/images/uiBackground.png";
 import UxBackground from "../../assets/images/uxBackground.jpg";
 import DevBackground from "../../assets/images/devBackground.jpg";
 import ActionAreaCard from "../../assets/Components/Card";
+
+import styles from "./portfolio.module.scss";
 
 const cardsData = [
   {
