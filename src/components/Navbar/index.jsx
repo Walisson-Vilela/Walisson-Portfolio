@@ -1,8 +1,7 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-import styles from './navbar.module.css';
+import styles from './navbar.module.scss';
 
-function Navbar({ aboutRef, servicesRef, portfolioRef, contactRef }) {
+function Navbar() {
 
   const handleScroll = (id) => {
     const element = document.getElementById(id);

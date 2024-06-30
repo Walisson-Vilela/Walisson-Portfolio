@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import UiPicture from "../../assets/images/ui.png";
 import UxPicture from "../../assets/images/ux.png";
 import webPicture from "../../assets/images/web-development.png";
