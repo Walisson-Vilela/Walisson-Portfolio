@@ -6,7 +6,7 @@ import Work from './components/Work';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 
-import './App.scss';
+import './app.scss';
 
 function App() {
   return (

@@ -1,17 +1,26 @@
+$primary-color: rgb(73, 255, 194);
+$secondary-color: #333;
+$tertiary-color: #ff6e4a;
+
+@mixin primary-font {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin background-color($color) {
+  background-color: $color;
+}
+
 body {
   display: block;
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  @include primary-font;
+  @include background-color($secondary-color);
 
   .app-container {
     display: flex;
     width: 100%;
-    
   }
-  
 }
-
-
