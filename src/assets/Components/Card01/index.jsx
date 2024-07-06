@@ -1,18 +1,24 @@
 import "./card.scss";
 
-const Card01 = () => {
+const Card01 = ({
+    title,
+    idRef,
+    content,
+    skills,
+    imageUrl,
+    backgroundImageUrl,
+}) => {
   return (
     <>
       <div className="wrapper">
-        <div className="card">
-          <img src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" />
+        <div className="card" id={idRef}>
+          <img src={backgroundImageUrl} />
           <div className="info">
-            <h1>Mountain</h1>
+            <h1>{title}</h1>
             <p>
-              Big, tall mountains look really cool and make nature super
-              awesome!
+            {content}
             </p>
-            <button>Read More</button>
+            <button>Ver mais</button>
           </div>
         </div>
       </div>
