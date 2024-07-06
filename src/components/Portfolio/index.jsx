@@ -8,46 +8,47 @@ import DevBackground from "../../assets/images/devBackground.jpg";
 import ActionAreaCard from "../../assets/Components/Card";
 
 import styles from "./portfolio.module.scss";
+import Card01 from "../../assets/Components/Card01";
 
-const cardsData = [
-  {
-    title: "UI Design",
-    id: 'web',
-    content:
-      "Criação de interfaces digitais intuitivas e esteticamente agradáveis para melhorar a experiência do usuário.",
-    skills: "Testes A/B, Figma, AdobeXD",
-    imageUrl: UiPicture,
-    backgroundImageUrl: UiBackground,
-  },
-  {
-    title: "UX Design",
-    id: 'ux',
-    content:
-      "Soluções eficazes e intuitivas para produtos digitais, focando na usabilidade, acessibilidade e satisfação do usuário.",
-    skills: "UX Research, Design Thinking, Double Diamond",
-    imageUrl: UxPicture,
-    backgroundImageUrl: UxBackground,
-  },
-  {
-    title: "Desenvolvimento Front-End",
-    id: 'frontEnd',
-    content: "Desenvolvimento de sites e sistemas web",
-    skills: "HTML, CSS, Javascript, ReactJS",
-    imageUrl: webPicture,
-    backgroundImageUrl: DevBackground,
-  },
-];
+// const cardsData = [
+//   {
+//     title: "UI Design",
+//     id: 'web',
+//     content:
+//       "Criação de interfaces digitais intuitivas e esteticamente agradáveis para melhorar a experiência do usuário.",
+//     skills: "Testes A/B, Figma, AdobeXD",
+//     imageUrl: UiPicture,
+//     backgroundImageUrl: UiBackground,
+//   },
+//   {
+//     title: "UX Design",
+//     id: 'ux',
+//     content:
+//       "Soluções eficazes e intuitivas para produtos digitais, focando na usabilidade, acessibilidade e satisfação do usuário.",
+//     skills: "UX Research, Design Thinking, Double Diamond",
+//     imageUrl: UxPicture,
+//     backgroundImageUrl: UxBackground,
+//   },
+//   {
+//     title: "Desenvolvimento Front-End",
+//     id: 'frontEnd',
+//     content: "Desenvolvimento de sites e sistemas web",
+//     skills: "HTML, CSS, Javascript, ReactJS",
+//     imageUrl: webPicture,
+//     backgroundImageUrl: DevBackground,
+//   },
+// ];
 
 function Portfolio() {
   const [selectedId, setSelectedId] = useState(null);
 
-  const handleFilterClick = (id) => {
-    setSelectedId(id);
-  };
+  // const handleFilterClick = (id) => {
+  //   setSelectedId(id);
+  // };
 
-  const filteredCards = selectedId
-    ? cardsData.filter(card => card.id === selectedId)
-    : cardsData;
+  // const filteredCards = selectedId
+  //   ? cardsData.filter(card => card.id === selectedId)
+  //   : cardsData;
 
   return (
     <div className={styles.portfolioContainer}>
@@ -64,7 +65,8 @@ function Portfolio() {
         </div>
         <div className={styles.cardsArea}>
           <div className={styles.cards}>
-            {filteredCards.map((card, index) => (
+            <Card01 />
+            {/* {filteredCards.map((card, index) => (
               <ActionAreaCard
                 key={index}
                 id={card.id}
@@ -74,7 +76,7 @@ function Portfolio() {
                 imageUrl={card.imageUrl}
                 backgroundImageUrl={card.backgroundImageUrl}
               />
-            ))}
+            ))} */}
           </div>
         </div>
       </div>
