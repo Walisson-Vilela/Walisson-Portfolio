@@ -28,6 +28,11 @@ function Contact() {
             </a>
           </li>
           <li>
+            <a href="https://www.linkedin.com/in/walissonvilela/" target="_blank">
+              <i className="fa fa-paper-plane-o"></i>
+            </a>
+          </li>
+          <li>
             <a href="#">
               <i className="fa fa-whatsapp"></i>
             </a>

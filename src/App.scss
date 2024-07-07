@@ -1,6 +1,7 @@
-$primary-color: rgb(73, 255, 194);
+$primary-color: #93e5ab;
 $secondary-color: #333;
 $tertiary-color: #ff6e4a;
+$white-color: #fff;
 
 @mixin primary-font {
   font-family: "Roboto", sans-serif;
@@ -10,6 +11,34 @@ $tertiary-color: #ff6e4a;
 
 @mixin background-color($color) {
   background-color: $color;
+}
+
+@mixin primary-button($color) {
+  padding: 0.6rem;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  background: $primary-color;
+  color: $white-color;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s ease;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+@mixin secundary-button($color) {
+  padding: 0.6rem;
+  outline: none;
+  border: $color 1px solid;
+  border-radius: 30px;
+  background: inherit;
+  color: $white-color;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s ease;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 body {

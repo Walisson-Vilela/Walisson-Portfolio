@@ -1,3 +1,5 @@
+@import '../../App.scss';
+
 .portfolioContainer {
   display: flex;
   flex-direction: row;
@@ -16,34 +18,55 @@
     flex-direction: column;
     text-align: left;
     justify-content: flex-start;
+   
 
     .hr {
-      background-color: rgb(73, 255, 194);
+      background-color: $primary-color;
       width: 130px;
       height: 10px;
       margin-top: -1.5rem;
+      margin-bottom: 32px;
+    }
+    .filterButtons{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 32px;
+      max-width: 500px;
+    }
+    .textSection {
+      margin-top: 1.5rem;
+      margin-bottom: 30px;
+    }
+  
+    .cardsArea {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      justify-content: center;
+      
+      .cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+        margin-top: 2rem;
+        margin: 0 5%;
+      }
     }
   }
 
-  .textSection {
-    margin-top: 1.5rem;
-    margin-bottom: 30px;
-  }
 
-  .cardsArea {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
-    
-    .cards {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 10px;
-      width: 100%;
-      margin-top: 2rem;
-      margin: 0 5%;
+ 
+
+  
+  button {
+    @include secundary-button($primary-color);
+
+    &:hover {
+      background: #93e5ab;
+      color: #222;
     }
   }
 }

@@ -20,7 +20,9 @@
     padding: 0;
     list-style: none;
     margin: 1em;
-
+    gap: 8;
+    justify-content: space-around;
+    display: flex;
     li {
       display: inline-block;
       margin: 0.15em;
